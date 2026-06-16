@@ -2,7 +2,7 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>Migaki</title>
-        <link>https://polilabs.io/migaki/appcast.xml</link>
+        <link>https://polilabsapps.github.io/Migaki-Appcast/appcast.xml</link>
         <description>Updates for Migaki — clean, focused video, audio, and GIF transcoding.</description>
         <language>en</language>
 
@@ -24,8 +24,8 @@
             ]]></description>
             <enclosure
                 url="https://github.com/PoliLabsApps/Migaki-Releases/releases/download/1.0/Migaki.dmg"
-                sparkle:edSignature="o0tIsEhogTVgBSd6bWGtDCHxYKTeZqg4Li4Xl2Be1J4OFU5/p6fmPmv1vIMwztYqw2VcNHkPfVFg6pss4R3sDw=="
-                length="62572054"
+                sparkle:edSignature="4kpohu1NBszuNgepLkCDsJ//J2YyBiMez+GOS8lpQ9BhYRlmoc9/Far+SOY+QtJGfuiVA6E32vkT7B9LtrxMCw=="
+                length="62571385"
                 type="application/octet-stream" />
         </item>
 
