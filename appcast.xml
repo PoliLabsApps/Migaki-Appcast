@@ -23,7 +23,7 @@
                 </ul>
             ]]></description>
             <enclosure
-                url="https://polilabs.io/migaki/downloads/Migaki.dmg"
+                url="https://github.com/PoliLabsApps/Migaki-Releases/releases/download/1.0/Migaki.dmg"
                 sparkle:edSignature="o0tIsEhogTVgBSd6bWGtDCHxYKTeZqg4Li4Xl2Be1J4OFU5/p6fmPmv1vIMwztYqw2VcNHkPfVFg6pss4R3sDw=="
                 length="62572054"
                 type="application/octet-stream" />
