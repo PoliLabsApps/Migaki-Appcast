@@ -8,7 +8,7 @@
 
         <item>
             <title>Version 1.0</title>
-            <pubDate>Tue, 16 Jun 2026 18:21:32 +0000</pubDate>
+            <pubDate>Tue, 16 Jun 2026 18:39:21 +0000</pubDate>
             <sparkle:version>1.0</sparkle:version>
             <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
@@ -24,8 +24,8 @@
             ]]></description>
             <enclosure
                 url="https://github.com/PoliLabsApps/Migaki-Releases/releases/download/1.0/Migaki.dmg"
-                sparkle:edSignature="Xn3jbH/X87yUpErkgjgRJmzMNoFK5Kc3xJgBaYKas4VV6YzyR+CU0ZEhXmnMkAgDFu9uYT4dXdbVtcz6Nt3yCw=="
-                length="62637881"
+                sparkle:edSignature="dHYozthnW7wH6cguyBlQjegaCOl6qROxlHLCZJ2FiOxM4bHLP4+TaywEzGP7A3SUx7Lbq6Nv2EMSmvZ4nlQxBw=="
+                length="62645288"
                 type="application/octet-stream" />
         </item>
 
