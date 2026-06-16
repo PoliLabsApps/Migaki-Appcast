@@ -7,23 +7,6 @@
         <language>en</language>
 
         <item>
-            <title>Version 1.1</title>
-            <pubDate>Tue, 16 Jun 2026 04:55:00 +0000</pubDate>
-            <sparkle:version>1.1</sparkle:version>
-            <sparkle:shortVersionString>1.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[
-                <h3>Migaki 1.1 — Test Release</h3>
-                <p>Verifying the auto-update pipeline end-to-end. This release is identical to 1.0 except for the version bump.</p>
-            ]]></description>
-            <enclosure
-                url="https://github.com/PoliLabsApps/Migaki-Releases/releases/download/1.1/Migaki.dmg"
-                sparkle:edSignature="cdAPij7m1zji+/B2hFkJnJbavOnbVdoLreZWXLG3Qsw2Zmxj6MAIIhAfa2TH7FilMUCNwe6y3vs/4VDZJxzkAw=="
-                length="62571929"
-                type="application/octet-stream" />
-        </item>
-
-        <item>
             <title>Version 1.0</title>
             <pubDate>Mon, 15 Jun 2026 23:00:00 +0000</pubDate>
             <sparkle:version>1.0</sparkle:version>
