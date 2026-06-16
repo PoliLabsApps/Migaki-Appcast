@@ -1,0 +1,33 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Migaki</title>
+        <link>https://polilabs.io/migaki/appcast.xml</link>
+        <description>Updates for Migaki — clean, focused video, audio, and GIF transcoding.</description>
+        <language>en</language>
+
+        <item>
+            <title>Version 1.0</title>
+            <pubDate>Mon, 15 Jun 2026 23:00:00 +0000</pubDate>
+            <sparkle:version>1.0</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3>Welcome to Migaki 1.0</h3>
+                <p>The first public release of Migaki — fast, frame-accurate transcoding for video, audio, and GIF.</p>
+                <ul>
+                    <li>Smart frame rate handling for variable frame rate footage</li>
+                    <li>Editor-ready output with constant frame rate and dense keyframes</li>
+                    <li>Voice and Time Preservation for screen recordings</li>
+                    <li>Dedicated GIF editor with full control over frame rate, dimensions, and speed</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://polilabs.io/migaki/downloads/Migaki.dmg"
+                sparkle:edSignature="o0tIsEhogTVgBSd6bWGtDCHxYKTeZqg4Li4Xl2Be1J4OFU5/p6fmPmv1vIMwztYqw2VcNHkPfVFg6pss4R3sDw=="
+                length="62572054"
+                type="application/octet-stream" />
+        </item>
+
+    </channel>
+</rss>
