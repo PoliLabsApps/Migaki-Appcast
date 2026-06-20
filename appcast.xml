@@ -7,6 +7,29 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.2</title>
+            <pubDate>Sat, 20 Jun 2026 04:52:22 +0000</pubDate>
+            <sparkle:version>1.2</sparkle:version>
+            <sparkle:shortVersionString>1.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3>Migaki 1.2</h3>
+                <p>Deep diagnostics, richer reports, and a rebuilt Welcome Tour.</p>
+                <ul>
+                    <li>VFR Deep Analysis — a new side-by-side sheet inside the Video Quality Report comparing source vs output frame-by-frame, with a shareable copy-ready report</li>
+                    <li>Audio Editor's new Audio Info bubble surfaces sample rate, channels, codec, and file size at a glance</li>
+                    <li>Quality Reports refreshed across Video, Audio, and GIF — original vs new file size, real audio properties straight from the file, and a reorganized Video report</li>
+                    <li>Welcome Tour rebuilt as a practical, screenshot-driven walkthrough</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/PoliLabsApps/Migaki-Releases/releases/download/1.2/Migaki.dmg"
+                sparkle:edSignature="bOpxDls3eSjlnvtp83/Z6wUk8MiwwHvqX9TavCM+lueO7hv79Q58M9He/+pgx8Pis6IJE180J1djCDyKfnHOCw=="
+                length="79469042"
+                type="application/octet-stream" />
+        </item>
+
+        <item>
             <title>Version 1.1</title>
             <pubDate>Wed, 17 Jun 2026 02:57:57 +0000</pubDate>
             <sparkle:version>1.1</sparkle:version>
