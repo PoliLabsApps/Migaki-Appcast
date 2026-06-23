@@ -7,6 +7,27 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.4</title>
+            <pubDate>Tue, 23 Jun 2026 20:43:06 +0000</pubDate>
+            <sparkle:version>1.4</sparkle:version>
+            <sparkle:shortVersionString>1.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3>Migaki 1.4</h3>
+                <p>Fixes a critical transcoding bug and polishes the queue icons.</p>
+                <ul>
+                    <li>Critical fix: Index-Based Timestamp Sync - Fixed a critical transcoding bug.</li>
+                    <li>Queue icon polish: hover-scale is now consistent across all queue row icons</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/PoliLabsApps/Migaki-Releases/releases/download/1.4/Migaki.dmg"
+                sparkle:edSignature="fQFkyNPEg4vIdxBrVQLh45oy0jwTlaUthwvbMiiBV9x4p3tU7sH5ciXvuDa/bipUPOIbEYsEd1B/MrpQ56okBA=="
+                length="79482357"
+                type="application/octet-stream" />
+        </item>
+
+        <item>
             <title>Version 1.3</title>
             <pubDate>Tue, 23 Jun 2026 07:26:20 +0000</pubDate>
             <sparkle:version>1.3</sparkle:version>
@@ -14,10 +35,11 @@
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <description><![CDATA[
                 <h3>Migaki 1.3</h3>
-                <p>New Transcoding Methods</p>
+                <p>Smarter transcoding — the engine now reads your source and picks the right method automatically.</p>
                 <ul>
-                    <li>Frame Dropping — A transcoding method has been added for downsampling — when your target is slower than your source (60 → 24, 52 → 30), Migaki picks the closest real source frames instead of synthesizing new ones, dramatically faster than Motion Interpolation. VFR sources are auto-detected and routed to Motion Interpolation instead, since their irregular timing wouldn't smooth well under frame drop.</li>
-                    <li>Index-Based Timestamp Sync — A new behind-the-scenes variant of Timestamp Sync — for bursty sources where two source frames would land in the same target slot, Migaki now assigns every source frame to its own clean slot and re-paces audio to match.</li>
+                    <li>Frame Dropping — a new transcoding method for downsampling (60 → 24, 52 → 30) that picks the closest real source frames instead of synthesizing new ones; dramatically faster than Motion Interpolation. VFR sources are auto-detected and routed to Motion Interpolation instead, since their irregular timing wouldn't smooth well under frame drop</li>
+                    <li>Index-Based Timestamp Sync — a new behind-the-scenes variant of Timestamp Sync that catches bursty sources where two source frames would land in the same target slot, assigns every source frame to its own clean slot, and re-paces audio to match</li>
+                    <li>Fixed a bug in Voice and Time Preservation where having the Audio Sync setting on at the same time could silently shorten the output duration</li>
                 </ul>
             ]]></description>
             <enclosure
