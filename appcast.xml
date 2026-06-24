@@ -7,6 +7,26 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.6</title>
+            <pubDate>Wed, 24 Jun 2026 18:04:21 +0000</pubDate>
+            <sparkle:version>1.6</sparkle:version>
+            <sparkle:shortVersionString>1.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3>Migaki 1.6</h3>
+                <p>Focused audio sync improvements.</p>
+                <ul>
+                    <li>Smart Routing — Index-Based Timestamp Sync is now reserved for short clips where it shines. Longer transcodes are routed to Standard Timestamp Sync so audio sync stays rock solid end-to-end.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/PoliLabsApps/Migaki-Releases/releases/download/1.6/Migaki.dmg"
+                sparkle:edSignature="5vEvZecRaBSsSJlCubsPacR/pbhyGCls4KyjUaYVTpgTfYNVM5yDtNfvl6tKcOCmeXhCS1/LPcM77rDnkSvJBQ=="
+                length="79491529"
+                type="application/octet-stream" />
+        </item>
+
+        <item>
             <title>Version 1.5</title>
             <pubDate>Wed, 24 Jun 2026 09:54:19 +0000</pubDate>
             <sparkle:version>1.5</sparkle:version>
@@ -17,7 +37,7 @@
                 <p>Smarter routing decisions and richer source analysis.</p>
                 <ul>
                     <li>Smart Routing — improved metric recognition for choosing how a video is transcoded</li>
-                    <li>Source Analysis — richer metadata pulled from your source files for more accurate detailed reports</li>
+                    <li>Source Analysis — richer metadata pulled from your source files for more accurate detailed reports and precise frame-rate detection</li>
                 </ul>
             ]]></description>
             <enclosure
