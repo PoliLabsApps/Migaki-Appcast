@@ -7,6 +7,27 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.5</title>
+            <pubDate>Wed, 24 Jun 2026 09:54:19 +0000</pubDate>
+            <sparkle:version>1.5</sparkle:version>
+            <sparkle:shortVersionString>1.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3>Migaki 1.5</h3>
+                <p>Smarter routing decisions and richer source analysis.</p>
+                <ul>
+                    <li>Smart Routing — improved metric recognition for choosing how a video is transcoded</li>
+                    <li>Source Analysis — richer metadata pulled from your source files for more accurate detailed reports</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/PoliLabsApps/Migaki-Releases/releases/download/1.5/Migaki.dmg"
+                sparkle:edSignature="6aomxcMzwu8nElPAaN22or+lEqtCkdvC7PK9NomUVwuxsxxKzgTjCvslvclkBrlOTGuPwmna2YUBEkBKLDPZDw=="
+                length="128327644"
+                type="application/octet-stream" />
+        </item>
+
+        <item>
             <title>Version 1.4</title>
             <pubDate>Tue, 23 Jun 2026 20:43:06 +0000</pubDate>
             <sparkle:version>1.4</sparkle:version>
@@ -16,7 +37,7 @@
                 <h3>Migaki 1.4</h3>
                 <p>Fixes a critical transcoding bug and polishes the queue icons.</p>
                 <ul>
-                    <li>Critical fix: Index-Based Timestamp Sync - Fixed a critical transcoding bug.</li>
+                    <li>Critical fix: Index-Based Timestamp Sync no longer drifts audio behind video on long or trimmed sources — picture and sound stay locked end-to-end</li>
                     <li>Queue icon polish: hover-scale is now consistent across all queue row icons</li>
                 </ul>
             ]]></description>
