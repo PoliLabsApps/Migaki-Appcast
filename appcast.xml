@@ -7,6 +7,30 @@
         <language>en</language>
 
         <item>
+            <title>Version 2.0</title>
+            <pubDate>Sun, 28 Jun 2026 22:27:42 +0000</pubDate>
+            <sparkle:version>2.0</sparkle:version>
+            <sparkle:shortVersionString>2.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3>Migaki 2.0</h3>
+                <p>A new transcoding pipeline, a guided tour of the real interface, and a fresh look you can make your own.</p>
+                <ul>
+                    <li>UI Tour — a brand-new interactive guided tour that walks you through Migaki's real interface.</li>
+                    <li>Synthetic Repair — a new transcoding pipeline that synthesizes frames to repair them, with an Analyzer that auto-scans your source and tells you whether repair is needed before you toggle it</li>
+                    <li>Appearance Effects — Pick your favorite effect to compliment your window layout, or swap on the fly from the new wand icon in the toolbar</li>
+                    <li>Welcome Tour rebuilt from the ground up as a three-slide experience showcasing the perks of using Migaki</li>
+                    <li>Trim Editor — added 30s and 45s quick trim presets, plus drag the whole trim selection from anywhere on the timeline</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/PoliLabsApps/Migaki-Releases/releases/download/2.0/Migaki.dmg"
+                sparkle:edSignature="iROg9IZfSSfurvK3R9lif9L8ZDes25bnqNQwNyXyW36F4CgKuu+0YThtjsmIob/iZRMac5n12IANZcDvr+lGBg=="
+                length="79930842"
+                type="application/octet-stream" />
+        </item>
+
+        <item>
             <title>Version 1.6</title>
             <pubDate>Wed, 24 Jun 2026 18:04:21 +0000</pubDate>
             <sparkle:version>1.6</sparkle:version>
