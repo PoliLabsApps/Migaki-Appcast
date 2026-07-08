@@ -7,6 +7,39 @@
         <language>en</language>
 
         <item>
+            <title>Version 2.1</title>
+            <pubDate>Wed, 08 Jul 2026 15:50:28 +0000</pubDate>
+            <sparkle:version>2.1</sparkle:version>
+            <sparkle:shortVersionString>2.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3>Migaki 2.1</h3>
+                <p>Migaki goes any-to-any — WebM support, PS5 HDR handling, portrait editors, and instant-loading edits.</p>
+                <h4>New Features</h4>
+                <ul>
+                    <li>Portrait Editors — the Video, GIF, and Audio editors now have dedicated portrait layouts that open automatically for tall (vertical) sources</li>
+                    <li>Swap Format — choose your export's container right in the Video editor: .mp4, .mov, or .webm</li>
+                    <li>Wider Compatibility — added compatibility for WebM files: drop them in, trim and capture like any other video, and export to any format you like</li>
+                    <li>PS5 Support — PS5 WebM captures are auto-detected: HDR and color-space signature are properly converted to standard RGB color, so exports never come out washed out</li>
+                    <li>HDR Preservation — a new Preserve HDR option in the Video editor keeps HDR captures in true 10-bit HDR: highlights stay bright on HDR displays instead of being flattened to SDR</li>
+                </ul>
+                <h4>Improvements</h4>
+                <ul>
+                    <li>Capture Tools — Color Palette and Screenshot are now one-click icons on the editor's playback row</li>
+                    <li>Editor Polish — feature bubbles got a glassy new look, playback and quick-trim buttons were restyled to match, and your chosen appearance effect now fades in on editor sheets too</li>
+                    <li>Instant Editors — editors now open with the video and filmstrip already loaded; Migaki indexes your files in the background the moment they're dropped in</li>
+                    <li>Quality Reports — every report now includes an A/V Sync Lock measurement</li>
+                    <li>Transcoding — general improvements across the transcoding pipeline</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/PoliLabsApps/Migaki-Releases/releases/download/2.1/Migaki.dmg"
+                sparkle:edSignature="ogiCVrYgESssYm3JaAqjWyw6MNSGKYUn/5kWpceA8qZu+FwI/UA87wCXYJj0JPD6KbM/RndhRjl2qiKZMcpXBg=="
+                length="80573837"
+                type="application/octet-stream" />
+        </item>
+
+        <item>
             <title>Version 2.0</title>
             <pubDate>Sun, 28 Jun 2026 22:27:42 +0000</pubDate>
             <sparkle:version>2.0</sparkle:version>
@@ -14,11 +47,11 @@
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <description><![CDATA[
                 <h3>Migaki 2.0</h3>
-                <p>A new transcoding pipeline, a guided tour of the real interface, and a fresh look you can make your own.</p>
+                <p>A milestone release — new transcoding pipeline, a guided tour of the real interface, and a fresh look you can make your own.</p>
                 <ul>
-                    <li>UI Tour — a brand-new interactive guided tour that walks you through Migaki's real interface.</li>
+                    <li>UI Tour — a brand-new interactive guided tour that walks you through Migaki's real interface. Replay any time from Settings → Account → Guided Tours</li>
                     <li>Synthetic Repair — a new transcoding pipeline that synthesizes frames to repair them, with an Analyzer that auto-scans your source and tells you whether repair is needed before you toggle it</li>
-                    <li>Appearance Effects — Pick your favorite effect to compliment your window layout, or swap on the fly from the new wand icon in the toolbar</li>
+                    <li>Appearance Effects — Settings → Appearance now has a separate Effects section. Pick your favorite effect to compliment your window layout, or swap on the fly from the new wand icon in the toolbar</li>
                     <li>Welcome Tour rebuilt from the ground up as a three-slide experience showcasing the perks of using Migaki</li>
                     <li>Trim Editor — added 30s and 45s quick trim presets, plus drag the whole trim selection from anywhere on the timeline</li>
                 </ul>
