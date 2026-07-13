@@ -7,6 +7,36 @@
         <language>en</language>
 
         <item>
+            <title>Version 2.2</title>
+            <pubDate>Mon, 13 Jul 2026 05:11:11 +0000</pubDate>
+            <sparkle:version>2.2</sparkle:version>
+            <sparkle:shortVersionString>2.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3>Migaki 2.2</h3>
+                <p>Animations go modern — WebP and AVIF exports, WebM in every editor, movable editor windows, and a richer HDR-to-SDR pipeline.</p>
+                <h4>New Features</h4>
+                <ul>
+                    <li>Animation Formats — the GIF editor's new Swap Format bubble lets you export animations as .gif, .webp, or .avif; WebP and AVIF keep full color at a fraction of the file size</li>
+                    <li>WebM Everywhere — WebM files now open natively in the Audio and GIF editors</li>
+                    <li>Snapshot Both — Deep VFR Analysis can now capture the source and output frames at their playheads and save them stitched into one side-by-side comparison image</li>
+                </ul>
+                <h4>Improvements</h4>
+                <ul>
+                    <li>Movable Editors — editor windows can now be dragged around the screen</li>
+                    <li>GIF Editor — the Playback bubble's buttons are now a compact row of square icons: forward, reverse, and boomerang</li>
+                    <li>HDR to SDR — improved the HDR-to-SDR pipeline: exports keep more of the source's vibrance and contrast, and new dithering eliminates banding in gradients</li>
+                    <li>Queue — duplicated files now slide smoothly into place beneath their source instead of popping in</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/PoliLabsApps/Migaki-Releases/releases/download/2.2/Migaki.dmg"
+                sparkle:edSignature="fkHz7TdsNxCbK8F37h0Aiydwmzc0YOUYZeHc6hMldm1hpFUfHwE221fV4yv6y3Zl1L60gBBdxJwom6hZdRasAA=="
+                length="80731439"
+                type="application/octet-stream" />
+        </item>
+
+        <item>
             <title>Version 2.1</title>
             <pubDate>Wed, 08 Jul 2026 15:50:28 +0000</pubDate>
             <sparkle:version>2.1</sparkle:version>
