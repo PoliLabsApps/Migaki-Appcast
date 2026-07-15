@@ -7,6 +7,33 @@
         <language>en</language>
 
         <item>
+            <title>Version 2.3</title>
+            <pubDate>Wed, 15 Jul 2026 02:07:20 +0000</pubDate>
+            <sparkle:version>2.3</sparkle:version>
+            <sparkle:shortVersionString>2.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3>Migaki 2.3</h3>
+                <p>Know your output before you export — 10-bit preservation, a live Output Info readout, and a refined editor.</p>
+                <h4>New Features</h4>
+                <ul>
+                    <li>Preserve 10-Bit — 10-bit sources are auto-detected and get a Preserve 10-Bit option in the Video editor</li>
+                    <li>Output Info — the Video editor now shows a live readout of the export's exact specs</li>
+                </ul>
+                <h4>Improvements</h4>
+                <ul>
+                    <li>Transcoding — general improvements across the transcoding pipeline</li>
+                    <li>Editor Polish — refined the editors' feature bubbles</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/PoliLabsApps/Migaki-Releases/releases/download/2.3/Migaki.dmg"
+                sparkle:edSignature="m1z+zeMPKodgg5/ijmTlak6IgGPkhQ3+ykkLQD8NLkWGEL6iXO4ep9epOJgShAtx1DDKQtN6NggmsLrsxi39AA=="
+                length="80756717"
+                type="application/octet-stream" />
+        </item>
+
+        <item>
             <title>Version 2.2</title>
             <pubDate>Mon, 13 Jul 2026 05:11:11 +0000</pubDate>
             <sparkle:version>2.2</sparkle:version>
