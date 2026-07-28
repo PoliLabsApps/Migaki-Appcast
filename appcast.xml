@@ -7,6 +7,30 @@
         <language>en</language>
 
         <item>
+            <title>Version 2.4</title>
+            <pubDate>Tue, 28 Jul 2026 01:35:13 +0000</pubDate>
+            <sparkle:version>2.4</sparkle:version>
+            <sparkle:shortVersionString>2.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3>Migaki 2.4</h3>
+                <p>Set it and forget it — a remembered output folder, live Dock progress, and finer control over loudness.</p>
+                <h4>Improvements</h4>
+                <ul>
+                    <li>Output Folder — the output button is now a compact folder icon and updated UI</li>
+                    <li>Dock Progress — while a batch is transcoding, the Dock icon shows a live progress bar and a badge counting how many files are left</li>
+                    <li>Loudness Target — Loudness Normalization now has a target slider (−24 to −14 LUFS); the default is −20 LUFS</li>
+                    <li>Remembered Output — your chosen output folder now sticks between launches</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/PoliLabsApps/Migaki-Releases/releases/download/2.4/Migaki.dmg"
+                sparkle:edSignature="MqkHIITziLRYYx5MnCDcfnKNtPKdsAQSSZMs0+tBkUY4es+M50URr4zcxRBGgdc7a04cn9ChdLVBL6gYB3L5CQ=="
+                length="80798697"
+                type="application/octet-stream" />
+        </item>
+
+        <item>
             <title>Version 2.3</title>
             <pubDate>Wed, 15 Jul 2026 02:07:20 +0000</pubDate>
             <sparkle:version>2.3</sparkle:version>
