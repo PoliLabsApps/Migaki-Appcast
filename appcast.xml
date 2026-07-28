@@ -7,6 +7,28 @@
         <language>en</language>
 
         <item>
+            <title>Version 2.5</title>
+            <pubDate>Tue, 28 Jul 2026 21:15:14 +0000</pubDate>
+            <sparkle:version>2.5</sparkle:version>
+            <sparkle:shortVersionString>2.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3>Migaki 2.5</h3>
+                <p>Smarter exports that never bloat — plus one-click access to your output folder.</p>
+                <h4>Improvements</h4>
+                <ul>
+                    <li>Smart File Size — exports no longer balloon larger than the source when re-encoding except when necessary</li>
+                    <li>Open Folder — when a specific export folder is set, the output location bubble now has an Open Folder button that reveals it in Finder</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/PoliLabsApps/Migaki-Releases/releases/download/2.5/Migaki.dmg"
+                sparkle:edSignature="yHAAGp26y+SWMX+wqfA0ufP1hnWZwit8/4qQ4NK9gLIxWlRq1PWyc+Mr8jRYxL2iCk3nuA9sjrbDw80TJ/4nCQ=="
+                length="80808290"
+                type="application/octet-stream" />
+        </item>
+
+        <item>
             <title>Version 2.4</title>
             <pubDate>Tue, 28 Jul 2026 01:35:13 +0000</pubDate>
             <sparkle:version>2.4</sparkle:version>
