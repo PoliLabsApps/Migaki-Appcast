@@ -7,6 +7,38 @@
         <language>en</language>
 
         <item>
+            <title>Version 2.6</title>
+            <pubDate>Mon, 31 Aug 2026 01:07:04 +0000</pubDate>
+            <sparkle:version>2.6</sparkle:version>
+            <sparkle:shortVersionString>2.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3>Migaki 2.6</h3>
+                <p>More control at every step — a Quality slider, Voice Enhancement, GIF transparency, and Global Defaults rebuilt around your workflow.</p>
+                <h4>New Features</h4>
+                <ul>
+                    <li>Quality Slider — a new Quality slider for Video lets you trade file size for quality or vice versa</li>
+                    <li>Voice Enhancement — noise reduction filter that removes background noise from speech, podcasts, and interviews; enable it globally from Settings → Global Defaults → Audio, or toggle it per-file using the mic icon in any editor</li>
+                    <li>Clear Caches — Global Defaults now has a Delete Caches button that frees up space; Migaki does this automatically when closing out of the software</li>
+                    <li>GIF Transparency — a new Transparency toggle in Global Defaults exports GIFs with genuine alpha transparency from straight-alpha sources</li>
+                </ul>
+                <h4>Improvements</h4>
+                <ul>
+                    <li>Alpha Video — straight-alpha video sources now transcode to video correctly and convert to GIF with proper transparency</li>
+                    <li>WebM Editor — WebM videos now open in the same unified Video editor as all other formats — full feature parity including Voice Enhancement and Synthetic Repair</li>
+                    <li>Global Settings — redesigned Video and Audio settings into compact tiles, added a live description to Loudness Normalization, and consolidated quick actions into a pill-button row at the top</li>
+                    <li>Media Info — the Audio and Video info panels now show more detail — audio adds its bitrate, and video shows the source file's size</li>
+                    <li>Trim Handles — refined the timeline's in and out handles so their grab areas sit right at the bars for more precise trimming</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/PoliLabsApps/Migaki-Releases/releases/download/2.6/Migaki.dmg"
+                sparkle:edSignature="cJg5xtoSylrfbeXipWey5j3gWqJ5uFL9mC+bpeG9roi1kWd4mcHxXZfNouCTGxDUFjhS52hAFWaExUKob76YBg=="
+                length="81034395"
+                type="application/octet-stream" />
+        </item>
+
+        <item>
             <title>Version 2.5</title>
             <pubDate>Tue, 28 Jul 2026 21:15:14 +0000</pubDate>
             <sparkle:version>2.5</sparkle:version>
