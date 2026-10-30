@@ -7,6 +7,34 @@
         <language>en</language>
 
         <item>
+            <title>Version 2.7</title>
+            <pubDate>Fri, 30 Oct 2026 07:05:05 +0000</pubDate>
+            <sparkle:version>2.7</sparkle:version>
+            <sparkle:shortVersionString>2.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3>Migaki 2.7</h3>
+                <p>New standalone tools for your files — swap audio, strip metadata, and replace a video's audio track, all without touching the transcode queue.</p>
+                <h4>New Features</h4>
+                <ul>
+                    <li>Toolbox — a new Toolbox menu holds standalone utilities that work outside the transcode queue — drop a file in, run the tool, and it saves right next to the source</li>
+                    <li>Audio Swap — Toolbox tool that swaps a video's audio track for a different audio file entirely — the video stream is never re-encoded</li>
+                    <li>Metadata Stripper — Toolbox tool that strips metadata from video, GIF, audio, or image files, either everything at once or just selected categories</li>
+                    <li>Replace Audio — swap a video's audio stream with any audio file from the editor; works with Voice Enhancement and all audio processing options</li>
+                </ul>
+                <h4>Improvements</h4>
+                <ul>
+                    <li>System Info — Settings → About → System Info now shows the bundled ffmpeg's version under Application</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/PoliLabsApps/Migaki-Releases/releases/download/2.7/Migaki.dmg"
+                sparkle:edSignature="lSxE4slIFDm7lkuq/DmZ6zH9vPr7hsYtVFiOSOoq0IvFFwMzZH2UQASO7OIzM21M/IgcsfhrOxDyKP2GXx7DDw=="
+                length="81643485"
+                type="application/octet-stream" />
+        </item>
+
+        <item>
             <title>Version 2.6</title>
             <pubDate>Mon, 31 Aug 2026 01:07:04 +0000</pubDate>
             <sparkle:version>2.6</sparkle:version>
